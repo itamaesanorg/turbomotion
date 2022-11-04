@@ -1,0 +1,24 @@
+{
+  "name": "turbomotion",
+  "version": "0.0.3",
+  "lockfileVersion": 2,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "prettier": "^2.5.1",
+    "turbo": "latest"
+  },
+  "dependencies": {
+    "framer-motion": "^7.6.4"
+  }
+}
